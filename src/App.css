@@ -1,38 +1,62 @@
-.App {
-  text-align: center;
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.row{
+  margin: 0!important;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.row > * {
+  width: auto !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.navbar{
+  height:10%;
+}
+
+.landingpage{
+  height:90%;
+}
+.contactus-btn button{
+  background: #FF5D22;
   color: white;
+  border: none;
+  
+}
+.btn-pills{
+  width:35%;
+}
+.btn-pills .getstarted{
+  background: #FF5D22;
+  color: white;
+  border: none;
+}
+.btn-pills .learnmore{
+  border: none;
+
 }
 
-.App-link {
-  color: #61dafb;
+.content{
+  max-width: 500px;
 }
+.text{
+  max-width: 700px;
+}
+.nav-btns{
+  min-width: 60%;
+}
+.landingpage{
+  background: linear-gradient(180deg, #E0CEFF 0%, rgba(196, 196, 196, 0) 100%);
+  
+}
+.landingpage-container{
+  margin-top: 4% !important;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.bulbImage{
+  
 }

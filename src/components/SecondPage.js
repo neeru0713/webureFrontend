@@ -3,10 +3,12 @@ import slack from '../images/slack-logo.jpeg';
 import market from '../images/market-logo.jpeg';
 import razorpay from '../images/razorpay-logo.jpeg';
 import stripe from '../images/stripe-logo.jpeg';
+
 import analysis from '../images/analysis.jpeg';
 import digital from '../images/digital-marketing.jpeg';
 import email from '../images/email-marketing.jpeg';
 import '../App.css';
+import { Card } from './Card';
 
 export const SecondPage = () => {
   return (
@@ -42,26 +44,16 @@ export const SecondPage = () => {
       <div className="para d-flex justify-content-center fw-bold">
         <p>Here how its works</p>
       </div>
-      <div className="tag d-flex justify-content-center fw-bold">
-        <h1>Simple process to start</h1>
+      <div className="tag d-flex justify-content-center fw-bold mb-4">
+        <h2>Simple process to start</h2>
       </div>
-      <div className="cards">
-        <div>
-          <div className="container d-flex flex-column fw-medium ">
-            <img src={analysis} className="img-fluid" />
-            <h3>Digital analysis</h3>
-            <p>
-              simply dummy text of the printing and typesetting industry. Lorem
-              ipsum has been the indusrt's standrad dummy text ever since the
-              1500s.
-            </p>
-          </div>
-          <div>heading</div>
-          <div>paragraph</div>
-        </div>
-        <div></div>
-        <div></div>
+      <div className="cards d-flex justify-content-evenly">
+        <Card photo={analysis} title="Digital analysis" />
+        <Card photo={digital} title="Digital marketing" />
+        <Card photo={email} title="Email marketing" />
       </div>
+      <button className="allbtn px-3 py-2 fw-medium">All Features</button>
     </div>
   );
 };
+//

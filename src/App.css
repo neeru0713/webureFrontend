@@ -5,58 +5,75 @@ body,
   margin: 0px;
 }
 
-.row{
-  margin: 0!important;
-
+.row {
+  margin: 0 !important;
 }
 
 .row > * {
   width: auto !important;
 }
 
-.navbar{
-  height:10%;
+.navbar {
+  height: 10%;
 }
 
-.landingpage{
-  height:90%;
+.landingpage {
+  height: 90%;
 }
-.contactus-btn button{
-  background: #FF5D22;
-  color: white;
-  border: none;
-  
-}
-.btn-pills{
-  width:35%;
-}
-.btn-pills .getstarted{
-  background: #FF5D22;
+
+.contactus-btn button {
+  background: #ff5d22;
   color: white;
   border: none;
 }
-.btn-pills .learnmore{
+.btn-pills {
+  width: 35%;
+}
+.btn-pills .getstarted {
+  background: #ff5d22;
+  color: white;
   border: none;
-
+}
+.btn-pills .learnmore {
+  border: none;
 }
 
-.content{
+.content {
   max-width: 500px;
 }
-.text{
+.text {
   max-width: 700px;
 }
-.nav-btns{
+.nav-btns {
   min-width: 60%;
 }
-.landingpage{
-  background: linear-gradient(180deg, #E0CEFF 0%, rgba(196, 196, 196, 0) 100%);
-  
+.landingpage {
+  background: linear-gradient(180deg, #e0ceff 0%, rgba(196, 196, 196, 0) 100%);
 }
-.landingpage-container{
+.landingpage-container {
   margin-top: 4% !important;
-
 }
-.bulbImage{
-  
+
+.heading {
+  margin-top: 10px;
+}
+
+.long-line {
+  width: 100%;
+  height: 1px;
+  background-color: black;
+}
+.imagesLogo {
+  max-width: 60%;
+}
+
+.imagesLogos > div {
+  height: 5%;
+  width: 5%;
+}
+.para {
+  margin-top: 40px;
+}
+.container .img {
+  max-width: 20%;
 }

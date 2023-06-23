@@ -88,6 +88,12 @@ body,
 .card p {
   color: #a9b0bc;
 }
+.box {
+  width: 15%;
+  height: 12rem!important;
+  background-color: #f7f7f7 !important;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+}
 
 .allbtn {
   border: none;
@@ -96,4 +102,35 @@ body,
   margin-top: 2%;
 
   background-color: #ebf2f3;
+}
+.container-text1 {
+  color: #ff5d22;
+}
+.container h6 {
+  color: #ff5d22;
+}
+.container h2 {
+  width: 50%;
+}
+.text1 p {
+  color: #ff5d22;
+}
+.heading h5 {
+  margin-left: 5%;
+}
+.custom-paragraph {
+  width: 335px;
+}
+
+.left-content{
+  width: 50%!important;
+}
+
+.third-page-image{
+  height: 100%;
+  width: 30%;
+}
+
+.box h1{
+  font-size: 4rem;
 }
